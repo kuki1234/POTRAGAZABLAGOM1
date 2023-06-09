@@ -53,7 +53,7 @@ int provjeraPolja(int igracevPotez, char polje[n][n], int iPozicija, int jPozici
 
 void prikaziPolje(char polje[n][n])
 {
-    system("cls");
+    system("clear");
     for (int i = 0; i < n; i++)
     {
         for (int j = 0; j < n; j++)
